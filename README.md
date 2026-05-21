@@ -28,7 +28,6 @@ I dabble in **software dev**, **web dev**, **data analysis**, and **ML engineeri
 
 **What I like working on:**
 - **Apps** that feel fast + polished
-- **Automations & scripts** that save time
 - **Projects** with real users / real outcomes
 
 <p align="center">
