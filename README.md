@@ -1,4 +1,4 @@
-# **Tejinder Bajaj**
+ **Tejinder Bajaj**
 
 <p align="center">
   <img alt="Red divider" src="https://capsule-render.vercel.app/api?type=rect&color=FF1B1B&height=10&section=header" style="filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));" />
