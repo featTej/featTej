@@ -1,8 +1,6 @@
- **Tejinder Bajaj**
+ #**Tejinder Bajaj**
 
-<p align="center">
-  <img alt="Red divider" src="https://capsule-render.vercel.app/api?type=rect&color=FF1B1B&height=10&section=header" style="filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));" />
-</p>
+
 
 <p align="center">
   <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=500&color=FF1B1B&center=true&vCenter=true&width=900&lines=Tejinder+Bajaj;Software+Developer;Tj+Bajaj;pizza+time%21" />
@@ -17,9 +15,7 @@
   </a>
 </p>
 
-<p align="center">
-  <img alt="Red divider" src="https://capsule-render.vercel.app/api?type=rect&color=FF1B1B&height=10&section=footer" style="filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));" />
-</p>
+
 
 ## **About me**
 
@@ -30,14 +26,10 @@ I dabble in **software dev**, **web dev**, **data analysis**, and **ML engineeri
 - **Apps** that feel fast + polished
 - **Projects** with real users / real outcomes
 
-<p align="center">
-  <img alt="Red divider" src="https://capsule-render.vercel.app/api?type=rect&color=FF1B1B&height=10&section=footer" style="filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));" />
-</p>
+
 
 # **Skills & Tools**
-<p align="center">
-  <img alt="Red divider" src="https://capsule-render.vercel.app/api?type=rect&color=FF1B1B&height=10&section=footer" style="filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));" />
-</p>
+
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-FF1B1B?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-FF1B1B?style=for-the-badge&logo=javascript&logoColor=white" />
@@ -82,6 +74,3 @@ I dabble in **software dev**, **web dev**, **data analysis**, and **ML engineeri
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FF1B1B?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
-<p align="center">
-  <img alt="Red divider" src="https://capsule-render.vercel.app/api?type=rect&color=FF1B1B&height=10&section=footer" style="filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));" />
-</p>
