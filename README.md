@@ -1,9 +1,6 @@
- #**Tejinder Bajaj**
-
-
 
 <p align="center">
-  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=500&color=FF1B1B&center=true&vCenter=true&width=900&lines=Tejinder+Bajaj;Software+Developer;Tj+Bajaj;pizza+time%21" />
+  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=500&color=FF1B1B&center=true&vCenter=true&width=900&lines=Tejinder+Bajaj;Tj+Bajaj;pizza+time%21" />
 </p>
 
 <p align="center">
@@ -15,20 +12,6 @@
   </a>
 </p>
 
-
-
-## **About me**
-
-### I’m **Tejinder Bajaj** (Tj is fine too!)
-I dabble in **software dev**, **web dev**, **data analysis**, and **ML engineering**, with a focus on **practical software**, **automation**, and **shipping**.
-
-**What I like working on:**
-- **Apps** that feel fast + polished
-- **Projects** with real users / real outcomes
-
-
-
-# **Skills & Tools**
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-FF1B1B?style=for-the-badge&logo=python&logoColor=white" />
