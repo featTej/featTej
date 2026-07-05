@@ -1,15 +1,23 @@
-<svg viewBox="0 0 1400 220" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1400 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient id="redGrad" gradientUnits="userSpaceOnUse" x1="-700" y1="0" x2="700" y2="0">
-      <stop offset="0%" stop-color="#8E0000"/>
-      <stop offset="50%" stop-color="#FF3131"/>
-      <stop offset="100%" stop-color="#8E0000"/>
-      <animate attributeName="x1" values="-700;700;-700" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="700;2100;700" dur="6s" repeatCount="indefinite"/>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+
+    <linearGradient id="redGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0%"    stop-color="#8E0000"/>
+      <stop offset="12.5%" stop-color="#FF3131"/>
+      <stop offset="25%"   stop-color="#8E0000"/>
+      <stop offset="37.5%" stop-color="#FF3131"/>
+      <stop offset="50%"   stop-color="#8E0000"/>
+      <stop offset="62.5%" stop-color="#FF3131"/>
+      <stop offset="75%"   stop-color="#8E0000"/>
+      <stop offset="87.5%" stop-color="#FF3131"/>
+      <stop offset="100%"  stop-color="#8E0000"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="0 0;350 0" dur="6s" repeatCount="indefinite" calcMode="linear"/>
     </linearGradient>
 
     <clipPath id="clip1">
-      <rect x="532" y="90" width="0" height="60">
+      <rect x="532" y="70" width="0" height="60">
         <animate attributeName="width"
           values="0;336;336;0;0"
           keyTimes="0;0.1167;0.3667;0.45;1"
@@ -18,7 +26,7 @@
     </clipPath>
 
     <clipPath id="clip2">
-      <rect x="604" y="90" width="0" height="60">
+      <rect x="604" y="70" width="0" height="60">
         <animate attributeName="width"
           values="0;0;192;192;0;0"
           keyTimes="0;0.45;0.5167;0.7667;0.8167;1"
@@ -27,20 +35,19 @@
     </clipPath>
   </defs>
 
-  <path d="M0,0 L1400,0 L1400,190
-           C1225,210 1225,170 1050,190
-           C875,210 875,170 700,190
-           C525,210 525,170 350,190
-           C175,210 175,170 0,190 Z"
-        fill="url(#redGrad)"/>
+  <!-- curvy red background, wave-shaped boundary -->
+  <svg x="0" y="0" width="1400" height="170" viewBox="0 6 150 62" preserveAspectRatio="none">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="url(#redGrad)"/>
+  </svg>
 
+  <!-- name typing animation -->
   <g>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.45;1" dur="12s" repeatCount="indefinite"/>
     <g clip-path="url(#clip1)">
-      <text x="532" y="130" font-family="Trebuchet MS, Verdana, sans-serif"
+      <text x="532" y="110" font-family="Trebuchet MS, Verdana, sans-serif"
             font-size="40" font-weight="bold" fill="#ffffff">Tejinder Bajaj</text>
     </g>
-    <rect y="92" width="4" height="56" fill="#ffffff">
+    <rect y="72" width="4" height="56" fill="#ffffff">
       <animate attributeName="x"
         values="532;868;868;532;532"
         keyTimes="0;0.1167;0.3667;0.45;1"
@@ -52,10 +59,10 @@
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.45;0.8167;0.8167;1" dur="12s" repeatCount="indefinite"/>
     <g clip-path="url(#clip2)">
-      <text x="604" y="130" font-family="Trebuchet MS, Verdana, sans-serif"
+      <text x="604" y="110" font-family="Trebuchet MS, Verdana, sans-serif"
             font-size="40" font-weight="bold" fill="#ffffff">Tj Bajaj</text>
     </g>
-    <rect y="92" width="4" height="56" fill="#ffffff">
+    <rect y="72" width="4" height="56" fill="#ffffff">
       <animate attributeName="x"
         values="604;604;796;796;604;604"
         keyTimes="0;0.45;0.5167;0.7667;0.8167;1"
@@ -63,4 +70,26 @@
       <animate attributeName="opacity" values="1;0;1;0;1" dur="0.8s" repeatCount="indefinite"/>
     </rect>
   </g>
+
+  <!-- layered parallax wave divider, straight from the portfolio -->
+  <svg x="0" y="150" width="1400" height="70" viewBox="0 24 150 28" preserveAspectRatio="none">
+    <g>
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,0,0,0.7)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0;-176,0" dur="18s" repeatCount="indefinite" calcMode="linear"/>
+      </use>
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.5)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0;-176,0" dur="14s" repeatCount="indefinite" calcMode="linear"/>
+      </use>
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,0,0,0.3)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0;-176,0" dur="10s" repeatCount="indefinite" calcMode="linear"/>
+      </use>
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0,0,0,1)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0;-176,0" dur="7s" repeatCount="indefinite" calcMode="linear"/>
+      </use>
+    </g>
+  </svg>
 </svg>
