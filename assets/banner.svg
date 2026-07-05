@@ -1,12 +1,15 @@
-<svg viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="redGrad" gradientUnits="userSpaceOnUse" x1="-450" y1="0" x2="450" y2="0">
       <stop offset="0%" stop-color="#8E0000"/>
-      <stop offset="100%" stop-color="#FF3131"/>
+      <stop offset="50%" stop-color="#FF3131"/>
+      <stop offset="100%" stop-color="#8E0000"/>
+      <animate attributeName="x1" values="-450;450;-450" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="450;1350;450" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
     <clipPath id="clip1">
-      <rect x="282" y="70" width="0" height="60">
+      <rect x="282" y="90" width="0" height="60">
         <animate attributeName="width"
           values="0;336;336;0;0"
           keyTimes="0;0.1167;0.3667;0.45;1"
@@ -15,7 +18,7 @@
     </clipPath>
 
     <clipPath id="clip2">
-      <rect x="354" y="70" width="0" height="60">
+      <rect x="354" y="90" width="0" height="60">
         <animate attributeName="width"
           values="0;0;192;192;0;0"
           keyTimes="0;0.45;0.5167;0.7667;0.8167;1"
@@ -24,15 +27,36 @@
     </clipPath>
   </defs>
 
-  <path d="M0,0 L900,0 L900,120 C750,180 600,60 450,120 C300,180 150,60 0,120 Z"
+  <path d="M0,0 L900,0 L900,190 C750,210 600,170 450,190 C300,210 150,170 0,190 Z"
         fill="url(#redGrad)"/>
 
-  <g clip-path="url(#clip1)">
-    <text x="282" y="112" font-family="Trebuchet MS, Verdana, sans-serif"
-          font-size="40" font-weight="bold" fill="#ffffff">Tejinder Bajaj</text>
+  <g>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.45;1" dur="12s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip1)">
+      <text x="282" y="130" font-family="Trebuchet MS, Verdana, sans-serif"
+            font-size="40" font-weight="bold" fill="#ffffff">Tejinder Bajaj</text>
+    </g>
+    <rect y="92" width="4" height="56" fill="#ffffff">
+      <animate attributeName="x"
+        values="282;618;618;282;282"
+        keyTimes="0;0.1167;0.3667;0.45;1"
+        dur="12s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="1;0;1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
   </g>
-  <g clip-path="url(#clip2)">
-    <text x="354" y="112" font-family="Trebuchet MS, Verdana, sans-serif"
-          font-size="40" font-weight="bold" fill="#ffffff">Tj Bajaj</text>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.45;0.8167;0.8167;1" dur="12s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip2)">
+      <text x="354" y="130" font-family="Trebuchet MS, Verdana, sans-serif"
+            font-size="40" font-weight="bold" fill="#ffffff">Tj Bajaj</text>
+    </g>
+    <rect y="92" width="4" height="56" fill="#ffffff">
+      <animate attributeName="x"
+        values="354;354;546;546;354;354"
+        keyTimes="0;0.45;0.5167;0.7667;0.8167;1"
+        dur="12s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="1;0;1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>
