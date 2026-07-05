@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E0000,100:FF3131&height=180&section=header" width="100%"/>
-
-<img alt="Name typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1200&color=FF1B1B&center=true&vCenter=true&width=600&lines=Tejinder+Bajaj;Tj+Bajaj" />
+<img src="assets/banner.svg" width="100%"/>
 
 <br/><br/>
 
